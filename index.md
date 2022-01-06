@@ -1,3 +1,7 @@
+
+layout: default
+title: Home
+
 # Helpful Resources for Students
 
 ## Website Description
