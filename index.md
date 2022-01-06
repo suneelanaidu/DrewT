@@ -1,5 +1,3 @@
-
-
 # Helpful Resources for Students
 
 ## Website Description
