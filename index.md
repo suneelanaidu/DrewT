@@ -1,39 +1,10 @@
-layout: default
+# Helpful Resources for Students
 
-## Welcome to GitHub Pages
+## Website Description
+Our website is a website full of helpful resources for students. It will help students in many ways, like a relaxation page, study techniques, and advice from previous students. This is useful in today's world because school is very important and this is another resource that will help students succeed.
 
-You can use the [editor on GitHub](https://github.com/sonakshibhalla/tri2turtles.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sonakshibhalla/tri2turtles.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## N225 Turtles
+  <td><a href="https://github.com/sonakshibhalla/tri2turtles/projects/2">Turtles Scrum Board</a></td>  
+  <br>
+  <td><a href="https://github.com/sonakshibhalla/tri2turtles/graphs/contributors">Contributors Tab</a></td>
+  <br>
