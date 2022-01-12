@@ -5,8 +5,9 @@ layout: page
 title: "About"
 permalink: https://sonakshibhalla.github.io/tri2_turtles.github.io/about
 
-[Sonakshi](https://sonakshibhalla.github.io/tri2_turtles.github.io/sonakshi)
-[Shreya](https://sonakshibhalla.github.io/tri2_turtles.github.io/shreya)
+<a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/sonakshi">Sonakshi's Page </a>
+<a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/shreya">Shreya's Page </a>
+
 
 ## About Us
 
