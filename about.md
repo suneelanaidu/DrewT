@@ -5,6 +5,9 @@ layout: page
 title: "About"
 permalink: https://sonakshibhalla.github.io/tri2_turtles.github.io/about
 
+[Sonakshi](https://sonakshibhalla.github.io/tri2_turtles.github.io/sonakshi)
+[Shreya](https://sonakshibhalla.github.io/tri2_turtles.github.io/shreya)
+
 ## About Us
 
 <table>
