@@ -1,4 +1,6 @@
 
+{% include navigation.html %}
+
 # Helpful Resources for Students
 
 ## Website Description
