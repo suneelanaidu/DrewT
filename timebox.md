@@ -1,13 +1,15 @@
 
 {% include navigation.html %}
 
+
 ## Table of Contents
 - <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-0-due-1119">Week 0</a>
 - <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-1-due-122">Week 1</a>
 - <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-2-due-1210">Week 2</a>
 - <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-3-due-1216">Week 3</a>
 - <a href = "https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-4-due-17">Week 4</a>
-- <a href = "https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-4-due-114">Week 5</a>
+- <a href = "https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-5-due-114">Week 5</a>
+
 <br>
 
 ## Week 5: Due 1/14
@@ -15,17 +17,16 @@
 | ---  | ---         | ---      | --- |
 | Sonakshi Bhalla | PBL Features<br>Extra Credit Tasks<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/130">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a>|  /5
 | Shreya Ahuja |PBL Features<br>Work on Jekyll<br>CRUD Database<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/135">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a>| /5
-| Punarvasu Sangam | PBL Features<br>Async Operations<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/137">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>|   /5
-| Khushi Bagri | PBL Features<br>Themes Using Sassy<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/136">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>| /5 
-
+| Punarvasu Sangam | PBL Features<br>Async Operations<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/137">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>|  /5
+| Khushi Bagri | PBL Features<br>Themes Using Sassy<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/136">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>|  /5
 
 ## Week 4: Due 1/7
 | Name | Requirement | Evidence |  Total Score |
 | ---  | ---         | ---      | --- |
 | Sonakshi Bhalla | Individual PBL (change with exact task) <br>CB Notes & Quizzes|<a href="">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/88">Ticket</a> |  /5
-| Shreya Ahuja | Tutor's Database<br>Update Navbar<br>CB Notes & Quizzes|<a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/121">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/122">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/88">Ticket</a>  |  4.5/5
+| Shreya Ahuja | Tutor's Database<br>Update Navbar<br>CB Notes & Quizzes|<a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/121">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/122">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/88">Ticket</a>  |  /5
 | Punarvasu Sangam | Individual PBL (change with exact task) <br>CB Notes & Quizzes|<a href="">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/89">Ticket</a>  |  /5
-| Khushi Bagri | Individual PBL (change with exact task) <br>CB Notes & Quizzes|<a href="">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/89">Ticket</a>  |  3.5/5
+| Khushi Bagri | Individual PBL (change with exact task) <br>CB Notes & Quizzes|<a href="">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/89">Ticket</a>  |  /5
 
 ## Week 3: Due 12/16
 | Name | Requirement | Evidence |  Total Score |
