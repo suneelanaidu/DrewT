@@ -23,8 +23,8 @@ permalink: https://sonakshibhalla.github.io/tri2_turtles.github.io/about
     <td>GitHub Pages</td>
     <td><a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/sonakshi">Sonakshi's Page</a></td>
     <td><a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/shreya">Shreya's Page</a></td>
-    <td>PunarvasuS</td>
-    <td>KhushiB24</td>
+    <td><a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/punnu">Punnu's Page</a></td>
+    <td><a href="https://sonakshibhalla.github.io/tri2_turtles.github.io/khushi">Khushi's Page</a></td>
   </tr>
   <tr>
     <td>Tasks</td>
