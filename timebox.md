@@ -10,17 +10,53 @@
 - <a href = "https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-4-due-17">Week 4</a>
 - <a href = "https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-5-due-114">Week 5</a>
 
-<br>
 
 ## Week 5: Due 1/14
-| Name | Requirement | Evidence |  Total Score |
-| ---  | ---         | ---      | --- |
-| Sonakshi Bhalla | PBL Features<br>Extra Credit Tasks<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/130">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a>|  /5
-| Shreya Ahuja |PBL Features<br>Work on Jekyll<br>CRUD Database<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/135">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a>| /5
-| Punarvasu Sangam | PBL Features<br>Async Operations<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/137">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>|  /5
-| Khushi Bagri | PBL Features<br>Themes Using Sassy<br>Collegeboard Notes| <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/136">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a>|  /5
+<table>
+<tr>
+<th>Name</th>
+<th>Requirement</th>
+<th>Evidence</th>
+<th>Total Score</th>
+</tr>
+<tr>
+<td>Sonakshi Bhalla</td>
+<td>
+PBL Features, Extra Credit Tasks, Collegeboard Notes
+</td>
+<td><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/130">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a></td>
+<td> /5</td>
 
-## Week 4: Due 1/7
+</tr>
+<tr>
+<td>Shreya Ahuja</td>
+<td>
+Work on Jekyll, CRUD Database, Collegeboard Notes
+</td>
+<td> <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/135">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/134">Ticket</a></td>
+<td> /5</td>
+  
+</tr>
+<tr>
+<td>Punarvasu Sangam</td>
+<td>
+PBL Features, Async Operations, Collegeboard Notes
+</td>
+<td>  <a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/137">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a></td>
+<td> /5</td>
+  
+</tr>
+<tr>
+<td>Khushi Bagri</td>
+<td>
+PBL Features, Themes Using Sassy, Collegeboard Notes
+</td>
+<td><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/131">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/136">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2_turtles.github.io/issues/133">Ticket</a></td>
+<td> /5</td> </table>
+
+
+
+
 | Name | Requirement | Evidence |  Total Score |
 | ---  | ---         | ---      | --- |
 | Sonakshi Bhalla | Individual PBL (change with exact task) <br>CB Notes & Quizzes|<a href="">Ticket</a><br><a href="https://github.com/sonakshibhalla/tri2turtles/issues/88">Ticket</a> |  /5
