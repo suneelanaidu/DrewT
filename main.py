@@ -1,4 +1,5 @@
 # import "packages" from flask
+import http
 
 from flask import Flask, render_template, request
 import requests
@@ -218,6 +219,21 @@ def listmovie():
     return render_template("api/unUsed/listmovieapi.html", response=response)
 
 
+@app.route('/mathapi/', methods=['GET', 'POST'])
+def mathapi():
+    conn = http.client.HTTPSConnection("numbersapi.p.rapidapi.com")
+
+    headers = {
+        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
+        'x-rapidapi-key': "0db43d0600msh37cae93877ed582p1ea81fjsn093af82a4434"
+    }
+
+    conn.request("GET", "/6/21/date?fragment=true&json=true", headers=headers)
+
+    res = conn.getresponse()
+    data = res.read()
+
+    print(data.decode("utf-8"))
 
 @app.route('/dictionary', methods=['GET', 'POST'])
 def dictionary():
