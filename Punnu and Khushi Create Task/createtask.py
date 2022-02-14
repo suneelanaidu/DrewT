@@ -37,5 +37,5 @@ if OR(statInput, 'y', 'yes'):
   print('The median is ' + str(median) + '.')
   print('The mode is ' + str(mode) + '.')
   print('The range is ' + str(min) + ' --> ' + str(max) + '.')
-elif OR(statInput, 'y', 'yes'):
+elif OR(statInput, 'n', 'no'):
   print('Ok! End of Program.')
