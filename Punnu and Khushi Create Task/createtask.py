@@ -17,7 +17,7 @@ while True:
       print('Oh no! That wasn\'t an expected answer. Exiting...')
       break
     numList.append(itemInput)
-    print('Ok!')
+    print('Number inputted.')
   elif OR(addInput, 'n', 'no'):
     print('Ok! Exiting...')
     break
@@ -28,12 +28,14 @@ while True:
 mean = mean(numList)
 median = median(numList)
 mode = mode(numList)
-
+min = min(numList)
+max = max(numList)
 statInput = input('Would you like to see the list and the stastistics of the list? (y/n)')
 if OR(statInput, 'y', 'yes'):
   print('The list is: ' + str(numList))
-  print('The mean is ' + str(mean) + '!')
-  print('The median is ' + str(median) + '!')
-  print('The mode is ' + str(mode) + '!')
+  print('The mean is ' + str(mean) + '.')
+  print('The median is ' + str(median) + '.')
+  print('The mode is ' + str(mode) + '.')
+  print('The range is ' + str(min) + ' --> ' + str(max) + '.')
 elif OR(statInput, 'y', 'yes'):
   print('Ok! End of Program.')
