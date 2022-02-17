@@ -5,7 +5,7 @@
 
 {% endblock %}
 
-{%  block body %}
+{% block body %}
 
 <div>
     <div class="container-fluid">
@@ -16,8 +16,12 @@
             </div>
         </div>
 
+        <tr>
+            <th>{{randfact.text}} </th>
+            <th>{{randfact.year}}</th>
+        </tr>
+
 
     </div>
-
-
 </div>
+{% endblock %}

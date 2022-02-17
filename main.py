@@ -219,22 +219,6 @@ def listmovie():
     return render_template("api/unUsed/listmovieapi.html", response=response)
 
 
-@app.route('/mathapi/', methods=['GET', 'POST'])
-def mathapi():
-    conn = http.client.HTTPSConnection("numbersapi.p.rapidapi.com")
-
-    headers = {
-        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
-        'x-rapidapi-key': "0db43d0600msh37cae93877ed582p1ea81fjsn093af82a4434"
-    }
-
-    conn.request("GET", "/6/21/date?fragment=true&json=true", headers=headers)
-
-    res = conn.getresponse()
-    data = res.read()
-
-    print(data.decode("utf-8"))
-
 @app.route('/dictionary', methods=['GET', 'POST'])
 def dictionary():
     word = "fantastic"
@@ -257,6 +241,22 @@ def punnuapitest():
 @app.route('/stressCrafts')
 def stressCrafts():
     return render_template("stressCrafts.html")
+
+@app.route('/mathapi/', methods=['GET', 'POST'])
+def mathapi():
+    url = "https://numbersapi.p.rapidapi.com/6/21/date"
+
+    querystring = {"fragment":"true","json":"true"}
+
+    headers = {
+        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
+        'x-rapidapi-key': "0db43d0600msh37cae93877ed582p1ea81fjsn093af82a4434"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    print(response.json())
+    return render_template("api/Used/mathapi.html", randfact=response.json())
+
 
 # runs the application on the development server
 if __name__ == "__main__":
