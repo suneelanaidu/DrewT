@@ -10,3 +10,20 @@ dates.sort()
 # print dates
 print('Sorted list:', dates)
 
+# datetime list
+datetime = ['June', 'August']
+
+# sort the datetime
+datetime.sort()
+
+# print datetime
+print('Second list:', datetime)
+
+# vowels list
+vowels = ['e', 'a', 'u', 'o', 'i']
+
+# sort the vowels
+vowels.sort()
+
+# print vowels
+print('Sorted list:', vowels)
