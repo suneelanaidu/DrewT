@@ -43,6 +43,10 @@ def stress():
 def volunteer():
     return render_template("volunteer.html")
 
+@app.route('/createtask')
+def createtask():
+    return render_template("createtask.html")
+
 
 @app.route('/crud/search')
 def search():
