@@ -1,17 +1,16 @@
 # import "packages" from flask
 
-from pathlib import Path
-
 from flask import Flask, render_template, request
 import requests
-import http.client
 
 # create a Flask instance
 app = Flask(__name__)
 
 
 from crud3.app_crud import app_crud
-import http.client
+
+#from gigiChat import app_gigiChat
+#app.register_blueprint(app_gigiChat)
 
 # create a Flask instance
 
@@ -21,27 +20,51 @@ app.register_blueprint(app_crud)
 # connects default URL to render index.html
 @app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template("api/unUsed/home.html")
+
+@app.route('/anikaCraft')
+def anikaCraft():
+    return render_template("crossTeam/anikaCraft.html")
+
+@app.route('/nehaAPI')
+def nehaAPI():
+    return render_template("crossTeam/nehaAPI.html")
+
+@app.route('/gigiTitle')
+def gigiTitle():
+    return render_template("crossTeam/gigiTitle.html")
+
+@app.route('/gigiChat')
+def gigiChat():
+    return render_template("crossTeam/gigiChat.html")
+
+@app.route('/gigiSnake')
+def gigiSnake():
+    return render_template("crossTeam/gigiSnake.html")
 
 
 @app.route('/dark')
 def dark():
-    return render_template("dark.html")
+    return render_template("keyFeatures/dark.html")
 
 
 @app.route('/study')
 def study():
-    return render_template("study.html")
+    return render_template("keyFeatures/study.html")
 
 
 @app.route('/stress')
 def stress():
-    return render_template("stress.html")
+    return render_template("keyFeatures/stress.html")
 
 
 @app.route('/volunteer')
 def volunteer():
-    return render_template("volunteer.html")
+    return render_template("keyFeatures/volunteer.html")
+
+@app.route('/eduvidDina')
+def eduvidDina():
+    return render_template("crossTeam/tinahtmlFolder/eduvidDina.html")
 
 @app.route('/createtask')
 def createtask():
@@ -57,9 +80,23 @@ def search():
 def crud():
     return render_template("crud.html")
 
+@app.route('/goalsCl')
+def goalsCl():
+    return render_template("crossTeam/tinahtmlFolder/imbedHtml/goalsCl.html")
+
+@app.route('/organIm')
+def organIm():
+    return render_template("crossTeam/tinahtmlFolder/imbedHtml/organIm.html")
+
+
+@app.route('/loveO')
+def loveO():
+    return render_template("crossTeam/tinahtmlFolder/imbedHtml/loveO.html")
+
 @app.route('/fibonacci')
 def fibonacci():
-    return render_template("fibonacci.html")
+    return render_template("api/Used/fibonacci.html")
+
 
 @app.route('/sonakshi', methods=['GET', 'POST'])
 def sonakshi():
@@ -67,9 +104,9 @@ def sonakshi():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("sonakshi.html", name=name)
+            return render_template("team/sonakshi.html", name=name)
     # starting and empty input default
-    return render_template("sonakshi.html", name="World")
+    return render_template("team/sonakshi.html", name="World")
 
 
 @app.route('/forum', methods=['GET', 'POST'])
@@ -78,9 +115,20 @@ def forum():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("forum.html", name=name)
+            return render_template("keyFeatures/forum.html", name=name)
     # starting and empty input default
-    return render_template("forum.html", name="Advice Here")
+    return render_template("keyFeatures/forum.html", name="Advice Here")
+
+
+@app.route('/journal', methods=['GET', 'POST'])
+def journal():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("keyFeatures/journal.html", name=name)
+    # starting and empty input default
+    return render_template("keyFeatures/journal.html", name="Feel Free to Write")
 
 
 @app.route('/shreya', methods=['GET', 'POST'])
@@ -89,18 +137,18 @@ def shreya():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("shreya.html", name=name)
+            return render_template("team/shreya.html", name=name)
     # starting and empty input default
-    return render_template("shreya.html", name="World")
+    return render_template("team/shreya.html", name="World")
 
 
-@app.route('/linda', methods=['GET', 'POST'])
-def linda():
+@app.route('/punnu', methods=['GET', 'POST'])
+def punnu():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("linda.html", name=name)
-    return render_template("linda.html")
+            return render_template("team/punnu.html", name=name)
+    return render_template("team/punnu.html")
 
 
 @app.route('/khushi', methods=['GET', 'POST'])
@@ -109,9 +157,9 @@ def khushi():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("khushi.html", name=name)
+            return render_template("team/khushi.html", name=name)
     # starting and empty input default
-    return render_template("khushi.html", name="World")
+    return render_template("team/khushi.html", name="World")
 
 
 @app.route('/newapi', methods=['GET', 'POST'])
@@ -152,7 +200,7 @@ def trivia():
         'x-rapidapi-key': "69b86a4f86msh0f84d36c298ca22p15693fjsne0d137318725"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
-    return render_template("trivia.html", numbers=response.json())
+    return render_template("keyFeatures/trivia.html", numbers=response.json())
     print(response.text)
 
 
@@ -171,7 +219,8 @@ def listmovie():
     response = requests.request("GET", url, headers=headers, params=querystring)
     response = response.json().get("titles")
 
-    return render_template("listmovieapi.html", response=response)
+    return render_template("api/unUsed/listmovieapi.html", response=response)
+
 
 
 @app.route('/dictionary', methods=['GET', 'POST'])
@@ -184,15 +233,18 @@ def dictionary():
         'x-rapidapi-key': "69b86a4f86msh0f84d36c298ca22p15693fjsne0d137318725"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
-    return render_template("dictionary.html", word=word, stats=response.json())
+    return render_template("api/unUsed/dictionary.html", word=word, stats=response.json())
 
 @app.route('/punnuapitest', methods=['GET', 'POST'])
 def punnuapitest():
     url = "https://api.kuroganehammer.com/api/characters"
     response = requests.request("GET", url)
     text = response.json()
-    return render_template("punnuapitest.html", text=text)
+    return render_template("team/punnuapitest.html", text=text)
 
+@app.route('/stressCrafts')
+def stressCrafts():
+    return render_template("stressCrafts.html")
 
 # runs the application on the development server
 if __name__ == "__main__":
