@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %}
-
+<!DOCTYPE html>
 <!- This variable sets name of browser tab  -->
 {% set project = "punnuapitest" %}
 
@@ -9,8 +9,8 @@
     <title>Smash Character API</title>
 </head>
 <html>
-    <body onload="myFunction()";>
-        <div style="display:none; color:black;" id="myDiv" class="animate-bottom"; >
+    <body onload="myFunction()">
+        <div style="display:none; color:black;" id="myDiv" class="animate-bottom" >
 
         <table class="tableCenter" style="border-collapse: 1px; background-color: #BABABA">
             <tr>
@@ -42,7 +42,7 @@
                 </td>
                 <td style="text-align:center; horiz-align: center;">
                     <a target="_blank" href="{{ text[i].FullUrl }}">
-                        <img src ="{{ text[i].ThumbnailUrl }}" height="80" >
+                        <img src = "{{ text[i].ThumbnailUrl }}" height="80" >
                     </a>
                 </td>
             </tr>
