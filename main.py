@@ -1,4 +1,5 @@
 # import "packages" from flask
+import http
 
 from flask import Flask, render_template, request
 import requests
@@ -88,7 +89,6 @@ def goalsCl():
 def organIm():
     return render_template("crossTeam/tinahtmlFolder/imbedHtml/organIm.html")
 
-
 @app.route('/loveO')
 def loveO():
     return render_template("crossTeam/tinahtmlFolder/imbedHtml/loveO.html")
@@ -97,6 +97,9 @@ def loveO():
 def fibonacci():
     return render_template("api/Used/fibonacci.html")
 
+@app.route('/PBLCreateTask/')
+def PBLCreateTask():
+    return render_template("team/punnu/PBLCreateTask.html")
 
 @app.route('/sonakshi', methods=['GET', 'POST'])
 def sonakshi():
@@ -147,8 +150,8 @@ def punnu():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("team/punnu.html", name=name)
-    return render_template("team/punnu.html")
+            return render_template("team/punnu/punnu.html", name=name)
+    return render_template("team/punnu/punnu.html")
 
 
 @app.route('/khushi', methods=['GET', 'POST'])
@@ -222,7 +225,6 @@ def listmovie():
     return render_template("api/unUsed/listmovieapi.html", response=response)
 
 
-
 @app.route('/dictionary', methods=['GET', 'POST'])
 def dictionary():
     word = "fantastic"
@@ -240,11 +242,26 @@ def punnuapitest():
     url = "https://api.kuroganehammer.com/api/characters"
     response = requests.request("GET", url)
     text = response.json()
-    return render_template("team/punnuapitest.html", text=text)
+    return render_template("team/punnu/templates/api/Used/smashAPI.html", text=text)
 
 @app.route('/stressCrafts')
 def stressCrafts():
     return render_template("stressCrafts.html")
+
+@app.route('/mathapi/', methods=['GET', 'POST'])
+def mathapi():
+    url = "https://numbersapi.p.rapidapi.com/6/21/date"
+
+    querystring = {"fragment":"true","json":"true"}
+
+    headers = {
+        'x-rapidapi-host': "numbersapi.p.rapidapi.com",
+        'x-rapidapi-key': "0db43d0600msh37cae93877ed582p1ea81fjsn093af82a4434"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    print(response.json())
+    return render_template("api/Used/mathapi.html", randfact=response.json())
 
 # runs the application on the development server
 if __name__ == "__main__":

@@ -1,0 +1,43 @@
+{% extends "layouts/project.html" %}
+{% set response = response %}//reference from rapidapi website, w3schools.com, and qauckit.com
+
+{% block meta %}
+
+{% endblock %}
+
+{% block body %}
+
+
+
+    <html>
+    <body style="background-color:orange;">
+    </body>
+    </html>
+
+
+
+<div>
+    <div class="container-fluid">
+        <div class="row-cols-1">
+            <div class = "row" style="padding-right:4%">
+            <div class="col-17" style="text-align:center;"></div>
+            <h1><strong><p style="color:#008080";>MathApi</strong></h1>
+            </div>
+        </div>
+        <div class="container">
+        <div class="ratio-1x1">
+            <div style="margin: 2% 5% 5%;"></div>
+            <tr>
+                <th>{{randfact.text}} </th>
+                <th>{{randfact.year}}</th>
+                <p style="color: powderblue; text-align: center; font-size: 50px;margin: 2% 5% 5%"></p>
+                <input type="button" value="Reload Page" onClick="document.location.reload(true)">
+            </tr>
+        </div>
+        </div>
+    </div>
+    <br>
+    <p style="color:purple; text-after-overflow: center; font-size:40px">Try out this Math Quiz on Mean, Median, and Mode!</p>
+    <a style="font-size: large; font-family: Baskerville;text-align: center" href="C:\Users\khush\IdeaProjects\tri2_turtles.github.io\Punnu and Khushi Create Task\createtask.py">Click here!</a>
+</div>
+{% endblock %}
