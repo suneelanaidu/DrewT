@@ -25,7 +25,10 @@
 
 <script>
 
+    let n = 0;
 
+    while (n < 1) {
+        n++;
         var Button = document.getElementById('button');
 
         function madLibs(ob1, ob2, ob3) {
@@ -38,18 +41,20 @@
             storyDiv.innerHTML = "I took my " + list + " to the beach with my friends.";
 
 
-                if (ob1 === "") {
-                    alert("Object 1 is empty!");
-                }
-                if (ob2 === "") {
-                    alert("Object 2 is empty!");
-                }
-                if (ob3 === "") {
-                    alert("Object 3 is empty!");
-                }
-
+            if (ob1 === "") {
+                alert("Object 1 is empty!");
             }
+            if (ob2 === "") {
+                alert("Object 2 is empty!");
+            }
+            if (ob3 === "") {
+                alert("Object 3 is empty!");
+            }
+
+        }
+
         Button.addEventListener('click', madLibs);
+    }
 
 
 
