@@ -67,6 +67,10 @@ def volunteer():
 def eduvidDina():
     return render_template("crossTeam/tinahtmlFolder/eduvidDina.html")
 
+@app.route('/createtask')
+def createtask():
+    return render_template("createtask.html")
+
 
 @app.route('/crud/search')
 def search():

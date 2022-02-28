@@ -1,0 +1,54 @@
+
+{% include "layouts/navbar.html" %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Challenge: Mad Libs</title>
+</head>
+<body>
+
+<h1>Mad Libs</h1>
+
+<ul>
+    <li>Noun: <input type="text" id="noun"></li>
+    <li>Adjective: <input type="text" id="adjective"></li>
+    <li> Name: <input type="text" id="name"></li>
+</ul>
+
+<button id="button">Submit!</button>
+
+<p>Generated story:
+    <span id="story"></span>
+</p>
+
+<script>
+    var Button = document.getElementById('button');
+    function madLibs(noun,adjective,name) {
+        var storyDiv = document.getElementById("story");
+        var noun = document.getElementById("noun").value;
+        var adjective = document.getElementById("adjective").value;
+        var name = document.getElementById("name").value;
+        var list = [noun,adjective,name]
+        storyDiv.innerHTML = "I took my " + list;
+        if (noun === "") {
+            alert("Noun is empty!");
+        }
+        if (adjective === "") {
+            alert("Adjective is empty!");
+        }
+        if (name === "") {
+            alert("Name is empty!");
+        }
+
+    }
+
+    Button.addEventListener('click', madLibs);
+
+
+
+</script>
+
+</body>
+</html>
