@@ -12,9 +12,9 @@
 <h1>Mad Libs</h1>
 
 <ul>
-    <li>Noun: <input type="text" id="noun"></li>
-    <li>Adjective: <input type="text" id="adjective"></li>
-    <li> Name: <input type="text" id="name"></li>
+    <li>Object 1: <input type="text" id="ob1"></li>
+    <li>Object 2: <input type="text" id="ob2"></li>
+    <li>Object 3: <input type="text" id="ob3"></li>
 </ul>
 
 <button id="button">Submit!</button>
@@ -24,27 +24,34 @@
 </p>
 
 <script>
+    madlib_loop = 1
+    while (madlib_loop < 10):
+
     var Button = document.getElementById('button');
-    function madLibs(noun,adjective,name) {
+    function madLibs(ob1,ob2,ob3) {
         var storyDiv = document.getElementById("story");
-        var noun = document.getElementById("noun").value;
-        var adjective = document.getElementById("adjective").value;
-        var name = document.getElementById("name").value;
-        var list = [noun,adjective,name]
-        storyDiv.innerHTML = "I took my " + list;
-        if (noun === "") {
-            alert("Noun is empty!");
+        var ob1 = document.getElementById("ob1").value;
+        var ob2 = document.getElementById("ob2").value;
+        var ob3 = document.getElementById("ob3").value;
+        var list = [ob1,ob2,ob3]
+
+        storyDiv.innerHTML = "I took my " + list + " to the beach with my friends.";
+
+        if (ob1 === "") {
+            alert("Object 1 is empty!");
         }
-        if (adjective === "") {
-            alert("Adjective is empty!");
+        if (ob2 === "") {
+            alert("Object 2 is empty!");
         }
-        if (name === "") {
-            alert("Name is empty!");
+        if (ob3 === "") {
+            alert("Object 3 is empty!");
         }
 
     }
 
     Button.addEventListener('click', madLibs);
+
+    madlib_loop = madlib_loop + 1
 
 
 
