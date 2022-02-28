@@ -24,38 +24,37 @@
 </p>
 
 <script>
-    madlib_loop = 1
-    while (madlib_loop < 10):
 
-    var Button = document.getElementById('button');
-    function madLibs(ob1,ob2,ob3) {
-        var storyDiv = document.getElementById("story");
-        var ob1 = document.getElementById("ob1").value;
-        var ob2 = document.getElementById("ob2").value;
-        var ob3 = document.getElementById("ob3").value;
-        var list = [ob1,ob2,ob3]
 
-        storyDiv.innerHTML = "I took my " + list + " to the beach with my friends.";
+        var Button = document.getElementById('button');
 
-        if (ob1 === "") {
-            alert("Object 1 is empty!");
-        }
-        if (ob2 === "") {
-            alert("Object 2 is empty!");
-        }
-        if (ob3 === "") {
-            alert("Object 3 is empty!");
-        }
+        function madLibs(ob1, ob2, ob3) {
+            var storyDiv = document.getElementById("story");
+            var ob1 = document.getElementById("ob1").value;
+            var ob2 = document.getElementById("ob2").value;
+            var ob3 = document.getElementById("ob3").value;
+            var list = [ob1, ob2, ob3]
 
-    }
+            storyDiv.innerHTML = "I took my " + list + " to the beach with my friends.";
 
-    Button.addEventListener('click', madLibs);
 
-    madlib_loop = madlib_loop + 1
+                if (ob1 === "") {
+                    alert("Object 1 is empty!");
+                }
+                if (ob2 === "") {
+                    alert("Object 2 is empty!");
+                }
+                if (ob3 === "") {
+                    alert("Object 3 is empty!");
+                }
+
+            }
+        Button.addEventListener('click', madLibs);
 
 
 
 </script>
+
 
 </body>
 </html>
