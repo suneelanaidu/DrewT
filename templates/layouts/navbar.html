@@ -88,7 +88,19 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                     <a class="dropdown-item" href="{{ url_for('punnu') }}">Punnu</a>
                     <a class="dropdown-item" href="{{ url_for('khushi') }}">Khushi</a>
                 </div>
-            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    Crossovers
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a class="dropdown-item" href="{{ url_for('anikaCraft') }}">Stress Relief Crafts</a>
+                    <a class="dropdown-item" href="{{ url_for('nehaAPI') }}">Mental Health</a>
+                    <a class="dropdown-item" href="{{ url_for('eduvidDina') }}">Educational Videos</a>
+                    <a class="dropdown-item" href="{{ url_for('gigiTitle') }}">Title Animations</a>
+                    <a class="dropdown-item" href="{{ url_for('gigiChat') }}">Chat</a>
+                    <a class="dropdown-item" href="{{ url_for('gigiSnake') }}">Game</a>
+                </div>
+        </li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('stress') }}">Stress Relief</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('study') }}">Study Resources</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('volunteer') }}">Volunteer!</a></li>
@@ -96,11 +108,15 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             <li class="nav-item"><a class="nav-link" href="{{ url_for('search') }}">Search</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('dark') }}">Dark Mode</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('forum') }}">Forum</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('journal') }}">Journal</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('PBLCreateTask') }}">Punnu's CreateTask PBL</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('mathapi') }}">MathApi</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('createtask') }}">Create Task</a></li>
         </ul>
     </div>
+    </ul>
+
+    </li>
 </nav>
 </body>
 </html>
