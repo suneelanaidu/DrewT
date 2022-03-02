@@ -1,5 +1,4 @@
 # import "packages" from flask
-import http
 
 from flask import Flask, render_template, request
 import requests
