@@ -1,13 +1,10 @@
 
 {% include navigation.html %}
 
-# Helpful Resources for Students
+# Sonakshi Individual 
 
-## Website Description
-Our website is a website full of helpful resources for students. It will help students in many ways, like a relaxation page, study techniques, and advice from previous students. This is useful in today's world because school is very important and this is another resource that will help students succeed.
-
-## N225 Turtles
-  <td><a href="https://github.com/sonakshibhalla/tri2turtles/projects/2">Turtles Scrum Board</a></td>  
-  <br>
-  <td><a href="https://github.com/sonakshibhalla/tri2turtles/graphs/contributors">Contributors Tab</a></td>
-  <br>
+## Table of Contents
+- <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-0-due-1119">TPT Notes</a>
+- <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-1-due-122">TPT Questions</a>
+- <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-2-due-1210">Create Task Plan</a>
+- <a href="https://github.com/sonakshibhalla/tri2turtles/blob/main/README.md#week-3-due-1216">Python Project</a>
