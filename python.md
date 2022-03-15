@@ -2,4 +2,4 @@
 
 # Python Project
 
-(Replit Python)[https://replit.com/@SonakshiBhalla/Sonakshi#main.py]
+[Replit Python](https://replit.com/@SonakshiBhalla/Sonakshi#main.py)
