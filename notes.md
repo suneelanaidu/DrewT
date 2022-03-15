@@ -21,6 +21,8 @@ Multirotor
 Microtransactions
 * Games and apps offer ways to buy things without paper money
 
+# 5.3 & 5.4 Notes
+
 Digital Divide
 * Socioeconomic factors, geographic factors, demographics that include age and religion
 * Some countries do not have access to computers, small number of websites, only used to protect and advocate for the government
