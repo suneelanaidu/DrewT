@@ -21,9 +21,21 @@ Although I don't believe that this was intended to be harmful or exclude certain
 
 _Should it be corrected?_
 
-I 
+I think this should be corrected to include people of all skin tones and facial features so that the software becomes more inclusive. 
 
-What would you or should you do to produce a better outcome?
+_What would you or should you do to produce a better outcome?_
+
+I would try and test the facial recognition software onto lots of different types of faces and people to make sure that everyone gets detected in the future. 
+
+_CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?_
+
+A crowdsource idea would be to have all the students talk about their pros and cons with their experience in AP Computer Science. They can all provide advice for future students and other notes. 
+
+_What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?_
+
+Our final project would be good with crowdsourcing because we can ask students and teachers to add input on what types of books and projects they would like to read and conduct. 
+
+
 
 ## 5.1 & 5.2
 _Come up with three of your own Beneficial and corresponding Harmful Effects of Computing_
