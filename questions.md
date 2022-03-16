@@ -1,6 +1,31 @@
 {% include navigation.html %}
 
 # TPT Questions
+
+## 5.3 & 5.4
+_Does the owner of the computer think this was intentional?_
+
+I believe that the owner of the video does not think that this was intentional, but rather an implict bias in the way that the software was designed which excluding Black facial features. 
+
+_If yes or no, justify you conclusion_
+
+The programmers who designed this facial software on the part of HP were most likely not attempting to be racist, but had a small amount of copmuting bias in the wa that the software likely recognizes white and europen facial features more than other minorities. 
+
+_How do you think this happened?_
+
+I think that this happened because the program was designed to focus on specific facial features and skin tones, but this did not work for people of darker skin tones. 
+
+_Is this harmful? Was it intended to be harmful or exclude?_
+
+Although I don't believe that this was intended to be harmful or exclude certain racial minorities, it can definetely have a harmful effect on those people who the software doesn't recognize, becaue they feel they are being left out and not thought of. 
+
+_Should it be corrected?_
+
+I 
+
+What would you or should you do to produce a better outcome?
+
+## 5.1 & 5.2
 _Come up with three of your own Beneficial and corresponding Harmful Effects of Computing_
 
 One beneficial effect is being able to connect around the world globally and have access to a wealth of information
