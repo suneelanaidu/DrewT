@@ -43,6 +43,8 @@ Implicit Data
 Crowdsourcing
 * Public datasets, online google has free ones, also some on the government
 
+# 5.5 & 5.6 Notes
+
 Distributed Computing
 * Spare computing power is used help calculations
 * Multiple innovations made possible with crowdsourcing
@@ -59,6 +61,12 @@ Copyright
 
 Digital Divide
 * Unequal distribution of access to technology
+
+Virus and Malware
+* Virus: malicious programs that can copy themselves and gain access to systems 
+* Malware
+* damage a computing system or take  control over its operation
+* Can infiltrate a system by posing as legitimate programs or by attaching itself to email 
 
 Safe Computing
 * PII- information specific to an individual 
