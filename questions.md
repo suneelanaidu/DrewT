@@ -2,6 +2,44 @@
 
 # TPT Questions
 
+## 5.5 & 5.6
+
+_When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages_
+
+* MIT license is open source and easy to use
+* GPL license is pretty easy to use other than for distributed closed source versions
+* must legally comply with the terms of licenses and cite sources 
+
+_Make a license for your personal and Team project. Document license you picked and why_
+
+I would choose the MIT license for both my personal and Team projects because the ease of usage for group and class projects such as ours. We are able to use software and other sources and copy them without any restrictations or legal limitations.
+
+_Describe PII you have seen on project in CompSci Principles_ 
+
+I have seen lots of different PII on different types of group websites. Some examples would be names, email addresses, and phone numbers. Additionally, some have provided the address to the school. 
+
+_What are your feelings about PII and your exposure?_
+
+I have mixed feelings about PII because I definetely feel that is necessary in certain environemnts. However, this can be used against you and become a threat to online safety if used improperly. 
+
+_Describe good and bad passwords? What is another step that is used to assist in authentication_
+
+Good passwords have lots of different types of chracters, such as upper case, lower case, and special characters. They are also not predictable and don't include personal information that can be easily guessed. 
+
+_Try to describe Symmetric and Asymmetric encryption_
+
+Symmetric encryption is when one key is used to both encrypt and decrypt data. Converseley, asymmetric encryption is when encryption and decryption don't happen in the same way. 
+
+_Provide and example of encryption we used in deployment_
+
+We used encryption in deployment when we had to log onto the website and provide an email address before logging on to deploy. 
+
+_Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques_
+
+I have not personally had any negative experiences with phishing. Some phishing techniques that often work are when there is a virus hiding behind an email attachment that lures people to click on it. 
+
+
+
 ## 5.3 & 5.4
 _Does the owner of the computer think this was intentional?_
 
