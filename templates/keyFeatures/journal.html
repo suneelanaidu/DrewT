@@ -1,26 +1,13 @@
-{% include "layouts/navbar.html" %}
+{% extends "layouts/project.html" %}
+{% set response = response %}//reference from codepen
 <title>Journal</title>
 
 
 <!- This is a replacement block for Body in base.html -->
+
 {% block body %}
     <head>
         <title>Journal</title>
-        <style>
-
-
-        </style>
-        <script>
-            function enter() {
-                const x = document.getElementById("stuffed").value;
-                document.getElementById("paragraph").innerHTML += "<br>&lt;me&gt; " + x;
-                document.getElementById("stuffed").value = ''
-            }
-            function func()
-            {
-                document.getElementById('text').style.fontSize='50px';
-                document.getElementById('text').style.color='blue';
-            }
 
         </script>
 
@@ -44,6 +31,9 @@
                 </a>
                 <img src="/static/assets/khushiimages/blank_journal.jpg" width="50%">
                 <br>
+            <button id="btn">
+                Make it Fire
+            </button>
             </p>
         </div>
         <div class="col-sm-6">
