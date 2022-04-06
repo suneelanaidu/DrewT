@@ -20,8 +20,8 @@ app.register_blueprint(app_crud)
 
 # connects default URL to render index.html
 @app.route('/')
-def home():
-    return render_template("api/unUsed/home.html")
+def createtask():
+    return render_template("createtask.html")
 
 @app.route('/anikaCraft')
 def anikaCraft():
@@ -67,9 +67,7 @@ def volunteer():
 def eduvidDina():
     return render_template("crossTeam/tinahtmlFolder/eduvidDina.html")
 
-@app.route('/createtask')
-def createtask():
-    return render_template("createtask.html")
+
 
 
 @app.route('/crud/search')

@@ -65,10 +65,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C9EEF7; font-family: Baskerville">
-    <div class="logo-image">
-        <img src="/static/assets/shreyaimages/logoimage.png" class="img-fluid">
-    </div>
-    <a class="navbar-brand" href="/">Student Resources</a>
+
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -76,28 +73,6 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('crud') }}">Find Tutors</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
-                    Greet Dropdowns
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <a class="dropdown-item" href="{{ url_for('shreya') }}">Shreya</a>
-                    <a class="dropdown-item" href="{{ url_for('sonakshi') }}">Sonakshi</a>
-                    <a class="dropdown-item" href="{{ url_for('punnu') }}">Punnu</a>
-                    <a class="dropdown-item" href="{{ url_for('khushi') }}">Khushi</a>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('stress') }}">Stress Relief</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('study') }}">Study Resources</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('volunteer') }}">Volunteer!</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('trivia') }}">Trivia</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('search') }}">Search</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('dark') }}">Dark Mode</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('forum') }}">Forum</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('PBLCreateTask') }}">Punnu's CreateTask PBL</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url_for('mathapi') }}">MathApi</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('createtask') }}">Create Task</a></li>
         </ul>
     </div>
