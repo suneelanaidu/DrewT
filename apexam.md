@@ -10,6 +10,10 @@
 - make 1 minute video about create task
 - ask others to review create task
 
+## Study Reflection
+
+I feel like my studying recently has been going well, espeically regarding the multiple choice test. I feel like the next thing I need to do is work on the captions for my create task video and make it a bit better. 
+
 # Test Corrections
 
 Quiz 1: 47/50
