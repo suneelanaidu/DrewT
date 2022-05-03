@@ -5,6 +5,8 @@
 
 This will be my individual jekyll pages for all of the  projects that we will work on this trimester. Visit the menu above for links to main items. 
 
+[AP Week 2 Review Ticket](https://github.com/sonakshibhalla/tri3sonakshi/issues/177)
+
 [Week 1 Review Ticket](https://github.com/sonakshibhalla/tri3sonakshi/issues/172#issue-1175835031)
 
 [Week 2 Review Ticket](https://github.com/sonakshibhalla/tri3sonakshi/projects/3#card-79860088)
