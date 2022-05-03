@@ -16,6 +16,19 @@ I feel like my studying recently has been going well, espeically regarding the m
 
 # Test Corrections
 
+Quiz 3: 42/50
+
+- Question 8: answer was D, students should be assigned an integer
+- Question 18: If A and B fail, than A will not be able to communicate with G
+- Question 39: 7 bits will allow up to 128 sequences because 2^7= 128
+- Question 46: all orders of rating filters will work to find the same restaurant
+- Question 48: unauthorized user can use weak network router to access
+- Question 22: should actually remove the last element of the list
+- Question 24, answer is B- even integers from 2 to 20
+- Question 32, answer is C- lines 5 and 6 are going to be interchanged
+
+
+
 Quiz 1: 47/50
 
 - Question 23: cookies have the potential to compromise a user's privacy, answer is A
