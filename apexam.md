@@ -16,6 +16,13 @@ I feel like my studying recently has been going well, espeically regarding the m
 
 # Test Corrections
 
+Quiz 5: 42/50
+
+- Question 16: B,  Both programs print the integer values starting at 1 and counting upward to 10.
+- Question 19: D, In this code segment, three coin flips are simulated, where one result is represented by 1 and the other result is represented by 0. The player wins when the sum of these is 0 or 3, indicating all heads or all tails.
+- Question 24: B, should be an OR statement instead of an AND statement
+- Question 29: C, It is possible to have redundant routing in both configurations. In configuration I, some possible routes between computers Q and V include Q-P-V, Q-T-V, and Q-R-S-V. In configuration II, some possible routes between computers Q and V include Q-S-V, Q-R-T-V, and Q-P-T-V.
+
 Quiz 3: 42/50
 
 - Question 8: answer was D, students should be assigned an integer
