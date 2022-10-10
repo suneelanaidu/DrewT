@@ -13,5 +13,5 @@ This will be my individual jekyll pages for all of the  projects that we will wo
 
 [Week 3 Review Ticket](https://github.com/sonakshibhalla/tri3sonakshi/issues/175)
 
-<img width="817" alt="image" src="https://user-images.githubusercontent.com/32502327/157549428-2bab682a-9a2d-475c-88b5-99011a9dfe25.png">
+<img width="817" alt="image" src="https://github.com/suneelanaidu/DrewT/blob/main/static/assets/Kushi-Grad.jpg">
 
